@@ -1,10 +1,8 @@
-.footer
-{
-    text-align: center;
+.footer {
+	text-align: center;
 }
 
-.sticky
-{
+.sticky {
 	width: 100%;
 	position: fixed;
 	left: 0;
