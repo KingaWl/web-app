@@ -1,20 +1,16 @@
-body
-{
+body {
   background-color: rgba(231, 231, 231, 0.863);
 }
 
-h1 
-{
+h1 {
   text-align: left;
   color: rgba(15, 15, 15, 0.842);
   font-size: 50px;
   margin: 7%;
   font-family: 'Jomhuria', cursive;
-  
 }
 
-.login-block
-{
+.login-block {
   width: 350px;
   height: 300px;
   margin-top: 10%;
@@ -26,8 +22,7 @@ h1
   box-shadow: 0 0 20px 10px rgb(214, 209, 209);
 }
 
-.advert-block2
-{
+.advert-block2 {
   width: 350px;
   height: 500px;
   margin-top: 8%;
@@ -39,8 +34,7 @@ h1
   box-shadow: 0 0 20px 10px rgb(214, 209, 209);
 }
 
-.register-block
-{
+.register-block {
   width: 350px;
   height: 740px;
   margin-top: 8%;
@@ -52,8 +46,7 @@ h1
   box-shadow: 0 0 20px 10px rgb(214, 209, 209);
 }
 
-input
-{
+input {
   width: 320px;
   text-align: center;
   color: black;
@@ -64,8 +57,7 @@ input
   border: none; 
 }
 
-input.input2
-{
+input.input2 {
   width: 308px;
   text-align: left;
   color: black;
@@ -76,20 +68,17 @@ input.input2
   border: none; 
 }
 
-input.input3
-{
+input.input3 {
   width: 320px;
   text-align: center;
   color: black;
-  
   margin-top: 8%;
   font: 80% calibri;
   padding: 2%;
   border: none; 
 }
 
-textarea
-{
+textarea {
   margin-top: 2%;
   width: 320px;
   height: 80px;
@@ -98,12 +87,10 @@ textarea
   resize: none;
 }
 
-button
-{
+button {
   text-align: center;
   font-size: 12px;
   color: #f7f7f7;
-  /*background: #0a663eaf; */
   background: orangered;
   border-radius: 10px;
   margin: 5%;
@@ -112,29 +99,26 @@ button
   border: none;
 }
 
-button:hover{
+button:hover {
   background: rgb(165, 165, 165);
   color: black;
 }
 
-button:active{
+button:active {
   background: rgba(0, 180, 30, 0.685);
   color: white;
 }
 
-.reg
-{
+.reg {
   margin-left: 15px;
 }
 
-.reg3
-{
+.reg3 {
   margin-left: 15px;
   margin-top: 40px;
 }
 
-.reg2
-{
+.reg2 {
   margin-left: 0;
   margin-top: 25px;
   font-size: 15px;
@@ -144,112 +128,90 @@ a {color: black; text-decoration: none;}
 a:hover {color: #0a663eaf; text-decoration: underline; text-decoration-style: dotted;}
 a:visited {color: #053620af; text-decoration: underline;}
 
-.empty
-{
-    height: 100px;
+.empty {
+  height: 100px;
 }
 
-.false
-{
+.false {
   text-align: center;
-
 }
 
-select
-{
+select {
   float:right;
   margin-right: 2%;
 }
 
-.block
-{
+.block {
   text-align: left;
   margin-left: 8%;
   font-size: 20px;
 }
 
-.block2
-{
+.block2 {
   text-align: left;
   margin-left: 5%;
   font-size: 20px;
 }
 
-.error
-{
+.error {
   color: red;
   text-align: center;
 }
 
-
-@media /*screen and */(max-width: 450px)
-{
-  .login-block
-  {
+@media /*screen and */(max-width: 450px) {
+  .login-block {
     width: 250px;
-    
   }
 
-  .advert-block2
-  {
+  .advert-block2 {
     width: 250px;
     height: 550px;
   }
 
-  .block
-  {
+  .block {
     text-align: left;
     margin-left: 6%;
     font-size: 14px;
   }
   
-
-  .register-block
-  {
+  .register-block {
     width: 250px;
     height: 550px;
   }
 
-  input
-  {
+  input {
     width: 200px;
     margin: 4%;
     margin-top: 3%;
     padding-left: 10%;
   }
 
-  input.input2
-  {
+  input.input2 {
     width: 200px;
     margin-top: 3%;
     padding-left: 10%;
   }
 
-  input.input3
-  {
+  input.input3 {
     width: 200px;
     margin: 4%;
     margin-top: 3%;
     padding-left: 10%;
-    
   }
 
-  button
-  {
+  button {
     margin-left: 50%;
     padding: 2% 15%;
     border: none;
   }
 
-  textarea
-  {
+  textarea {
     width: 200px;
     margin-top: 3%;
     padding-left: 10%;
   }
 
-  .block2
-  {
+  .block2 {
     font-size: 15px;
   }
 }
