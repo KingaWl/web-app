@@ -25,7 +25,6 @@
                 $_SESSION['e_pay']="Pole musi zawierać tylko cyfry!";
                 header("Location: ../View/advert.php");
             }
-
             if($addAD==true)
             {
                 if($db->query("INSERT INTO `subject` ( `subject`, `level`, `ad`, `place_of_lesson`, `pay`) 
@@ -47,4 +46,5 @@
             }
         }
     }
+
 ?>
