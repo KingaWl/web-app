@@ -2,8 +2,6 @@
 include_once '../Config/database.php';
 include_once '../Model/LogUser.php';
 
-
-
 if(isset($_GET['method'])){
     if($_GET['method']=="login"){
         loginUser();
