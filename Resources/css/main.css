@@ -1,0 +1,13 @@
+.footer
+{
+    text-align: center;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
