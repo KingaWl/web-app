@@ -3,13 +3,10 @@
 
 <?php 
     session_start(); 
-
-    if(!isset($_SESSION['logged']))
-    {
+    if(!isset($_SESSION['logged'])) {
         header('Location: index.php');
         exit();
     }
-
 ?>
 
 <!DOCTYPE html>
@@ -90,6 +87,3 @@
 </script>
 </body>
 </html>
-
-
-
